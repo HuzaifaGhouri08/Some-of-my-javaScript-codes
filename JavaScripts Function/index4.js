@@ -1,3 +1,5 @@
-  let array = ["My", "name", "is", "Huzaifa", "Ghouri"];
-  let text = array.join(" ");
-  document.write(text);
+let array = ['My', 'name', 'is', 'Huzaifa', 'Ghouri'];
+function together(string) {
+return array.join(' ');
+}
+document.write(together());
