@@ -1,4 +1,7 @@
-function func() {
-        document.write(Array.isArray(['I', 'Am', 'Huzaifa']));
+      let Mentor = ['Sir', 'Husnain'];
+      document.write(Mentor + '<br>');
+      
+      function check(arr) {
+        return Array.isArray(Mentor);
       }
-      func();
+      document.write(check());
