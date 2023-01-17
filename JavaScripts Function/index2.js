@@ -1,6 +1,5 @@
-let bio= ["Hey", "There", "i'm", "Using", "Whatsapp"];
-    function fn() {
-     let first = bio[0];
-     document.write("First element is "+ first);
-     }
-    fn();
+let bio = ['Hey', 'There', "i'm", 'Using', 'Whatsapp'];
+function fn(about) {
+return bio[0];
+}
+document.write('First element is ' + fn());
